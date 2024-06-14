@@ -44,7 +44,7 @@ bash
 Copy code
 java -jar target/average-calculator-microservice.jar
 Access the API:
-Open a web browser or use tools like Postman to access the API endpoints at http://localhost:8080/numbers/{numberid}.
+Open a web browser or use tools like Postman to access the API endpoints at http://localhost:9876/numbers/{numberid}.
 
 Dependencies
 Spring Boot Starter Web
