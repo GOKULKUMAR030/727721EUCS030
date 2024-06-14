@@ -5,26 +5,6 @@ Technologies Used
 Java 17
 Spring Boot 3.3.0
 Maven
-Project Structure
-The project structure follows standard Maven conventions:
-average-calculator-microservice/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── afford/
-│   │   │           └── exam/
-│   │   │               ├── controller/
-│   │   │               │   └── HttpCalculatorController.java   # REST API endpoints
-│   │   │               ├── service/
-│   │   │                   ├─ HttpCalculatorService.java  # Service logic
-│   │   │               
-│   │   └── resources/
-│   │       └── application.properties   # Application configuration
-│   └── test/   # Test cases (if implemented)
-├── pom.xml    # Maven dependencies and build configuration
-└── README.md  # Project documentation (you are reading this)
 API Endpoint
 GET /numbers/{numberid}
 Description: Retrieves numbers based on the specified number ID ('p', 'f', 'e', 'r').
